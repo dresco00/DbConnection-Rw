@@ -4,7 +4,7 @@ import dotenv from 'dotenv';
 import { pool } from './db.js';
 
 await pool.query(`
-    create table if not exists movies (id integer primary key auto_increment, title varchar(255), year integer, genre varchar(255))
+    create table if not exists movies (id integer primary key auto_increment, title varchar(250), year integer, genre varchar(250)NOT NULL)
 `);
 
 const PORT = process.env.PORT || 3000;
