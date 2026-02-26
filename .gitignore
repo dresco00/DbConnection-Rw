@@ -1,0 +1,48 @@
+# Node modules
+node_modules/
+
+# Env files
+.env
+.env.*.local
+
+# Logs
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+*.log
+
+# Runtime data
+pids/
+*.pid
+*.seed
+*.pid.lock
+
+# Dependency directories
+jspm_packages/
+
+# Build / output
+/dist/
+/build/
+/out/
+/coverage/
+/.nyc_output/
+
+# Editor directories
+.vscode/
+.idea/
+*.sublime-workspace
+*.sublime-project
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Packages
+*.tgz
+
+# Optional: local env files and secrets
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
